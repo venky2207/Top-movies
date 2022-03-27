@@ -1,0 +1,593 @@
+<!doctype html>
+	<html>
+	<head>
+		<script src="https://kit.fontawesome.com/c5a222954a.js" crossorigin="anonymous"></script>
+		<title>Top 10 movies to watch</title>
+		<style type="text/css">
+			.st{
+				margin-left: 35px;
+				font-style: bold;
+				font-family: 'Brush Script MT', cursive;
+				font-size: 45px;
+			}
+			.ham{
+				font-size: 30px;
+				margin-right: 1100px;
+				margin-top: 11px;
+				position: absolute;
+			}
+			.share{
+				font-size: 25px;
+    float: right;
+    margin-right: 25px;
+    margin-top: -37px;
+			}
+			.venky{
+				background: linear-gradient(#F0D290, #DE834D);
+                background-size: 100%;
+                width: 100%;
+                position: sticky;
+                top: 0;
+                height: 60px;
+			}
+			.ven{
+				font-size: 25px;
+                float: right;
+                margin-right: 75px;
+                margin-top: -37px;
+			}
+			h1{
+				margin-top: 10px;
+				margin-left: 15px;
+				font-size: 2.1em;
+    font-weight: 800;
+    color: #101010;
+
+			}
+			p1{
+				font-style: bold;
+				font-size: 20px;
+				padding-bottom: 10px;
+			}
+			.des{
+    font-weight: 400;
+    margin-top: -20px;
+    margin-left: 15px;
+    margin-right: 15px;
+        color: #2e2c2b
+            font-size: 1.7em;
+    font-weight: 400;
+			}
+			.mainimg{
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}
+			.lo{
+				margin-bottom: 10px;
+				margin-top: 10px;
+				 margin-left: 10px;
+    margin-right: 10px;
+			}
+			.lo1{
+				    font-size: 35px;
+				    font-weight: 200px;
+			}
+			.lo1a{
+				position: absolute;
+				margin-top: -23px;
+				margin-left: 27px;
+    left: 0.5rem;
+    font-size: 18px;
+    font-weight: 400;
+			}
+			.lo2{
+				font-size: 35px;
+			}
+			.lo3{
+				margin-left: 5px;
+				margin-top: -3px;
+			}
+			.lo4{
+				font-size: 18px;
+				margin-left: 5px;
+				margin-top: -10px;
+			}
+			.lo5{
+				font-size: 18px;
+				margin-left: 5px;
+				margin-top: -15px;
+			}
+			.lo6{
+				font-size: 18px;
+			}
+			.da{
+				margin-bottom: 10px;
+				margin-top: 10px;
+				 margin-left: 0px;
+    margin-right: 10px;
+			}
+			.da1{
+				    font-size: 35px;
+				    font-weight: 200px;
+			}
+			.da1a{
+				position: absolute;
+				margin-top: -23px;
+				margin-left: 25px;
+    left: 0.8rem;
+    font-size: 18px;
+    font-weight: 400;
+			}
+			.da2{
+				font-size: 35px;
+				margin-left: -5px;
+			}
+			.da4{
+				font-size: 18px;
+				margin-left: 0px;
+				margin-top: -10px;
+			}
+			.da5{
+				font-size: 18px;
+				margin-left: 0px;
+				margin-top: -15px;
+			}
+			.da6{
+				font-size: 18px;
+			}
+			.pi{
+				margin-bottom: 10px;
+				margin-top: 10px;
+				 margin-left: 0px;
+    margin-right: 10px;
+			}
+			.pi1{
+				    font-size: 35px;
+				    font-weight: 200px;
+			}
+			.pi1a{
+				position: absolute;
+				margin-top: -23px;
+				margin-left: 22px;
+    left: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+			}
+			.pi2{
+				font-size: 35px;
+			}
+			.pi3{
+				margin-left: 0px;
+				margin-top: -3px;
+			}
+			.pi4{
+				font-size: 18px;
+				margin-left: 0px;
+				margin-top: -10px;
+			}
+			.pi5{
+				font-size: 18px;
+				margin-left: 0px;
+				margin-top: -15px;
+			}
+			.pi6{
+				font-size: 18px;
+			}
+			.sh{
+				margin-bottom: 10px;
+				margin-top: 10px;
+				 margin-left: 0px;
+    margin-right: 0px;
+			}
+			.sh1{
+				    font-size: 35px;
+				    font-weight: 200px;
+			}
+			.sh1a{
+				position: absolute;
+				margin-top: -23px;
+				margin-left: 20px;
+    left: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+			}
+			.sh2{
+				font-size: 35px;
+			}
+			.sh4{
+				font-size: 18px;
+				margin-left: 0px;
+				margin-top: -10px;
+			}
+			.sh5{
+				font-size: 18px;
+				margin-left: 0px;
+				margin-top: -15px;
+			}
+			.sh6{
+				font-size: 18px;
+			}
+			.jo{
+				margin-bottom: 10px;
+				margin-top: 10px;
+				 margin-left: 0px;
+    margin-right: -5px;
+			}
+			.jo1{
+				    font-size: 35px;
+				    font-weight: 200px;
+			}
+			.jo1a{
+				position: absolute;
+				margin-top: -23px;
+				margin-left: 20px;
+    left: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+			}
+			.jo2{
+				font-size: 35px;
+			}
+			.jo4{
+				font-size: 18px;
+				margin-left: 0px;
+				margin-top: -10px;
+			}
+			.jo5{
+				font-size: 18px;
+				margin-left: 0px;
+				margin-top: -15px;
+			}
+			.jo6{
+				font-size: 18px;
+			}
+			.in{
+				margin-bottom: 10px;
+				margin-top: 10px;
+				 margin-left: 0px;
+    margin-right: 0px;
+			}
+			.in1{
+				    font-size: 35px;
+				    font-weight: 200px;
+			}
+			.in1a{
+				position: absolute;
+				margin-top: -23px;
+				margin-left: 20px;
+    left: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+			}
+			.in2{
+				font-size: 35px;
+			}
+			.in4{
+				font-size: 18px;
+				margin-left: 0px;
+				margin-top: -10px;
+			}
+			.in5{
+				font-size: 18px;
+				margin-left: 0px;
+				margin-top: -15px;
+			}
+			.in6{
+				font-size: 18px;
+			}
+			.li{
+				margin-bottom: 10px;
+				margin-top: 10px;
+				 margin-left: 0px;
+    margin-right:-5px;
+			}
+			.li1{
+				    font-size: 35px;
+				    font-weight: 200px;
+			}
+			.li1a{
+				position: absolute;
+				margin-top: -23px;
+				margin-left: 20px;
+    left: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+			}
+			.li2{
+				font-size: 35px;
+			}
+			.li4{
+				font-size: 18px;
+				margin-left: 0px;
+				margin-top: -10px;
+			}
+			.li5{
+				font-size: 18px;
+				margin-left: 0px;
+				margin-top: -15px;
+			}
+			.li6{
+				font-size: 18px;
+			}
+			.ti{
+				margin-bottom: 10px;
+				margin-top: 10px;
+				 margin-left: 0px;
+    margin-right: 0px;
+			}
+			.ti1{
+				    font-size: 35px;
+				    font-weight: 200px;
+			}
+			.ti1a{
+				position: absolute;
+				margin-top: -23px;
+				margin-left: 20px;
+    left: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+			}
+			.ti2{
+				font-size: 35px;
+			}
+			.ti4{
+				font-size: 18px;
+				margin-left: 0px;
+				margin-top: -10px;
+			}
+			.ti5{
+				font-size: 18px;
+				margin-left: 0px;
+				margin-top: -15px;
+			}
+			.ti6{
+				font-size: 18px;
+			}
+			.av{
+				margin-bottom: 10px;
+				margin-top: 10px;
+				 margin-left: 0px;
+    margin-right: -10px;
+			}
+			.av1{
+				    font-size: 35px;
+				    font-weight: 200px;
+			}
+			.av1a{
+				position: absolute;
+				margin-top: -23px;
+				margin-left: 20px;
+    left: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+			}
+			.av2{
+				font-size: 35px;
+			}
+			.av4{
+				font-size: 18px;
+				margin-left: 0px;
+				margin-top: -10px;
+			}
+			.av5{
+				font-size: 18px;
+				margin-left: 0px;
+				margin-top: -15px;
+			}
+			.av6{
+				font-size: 18px;
+			}
+			.hp{
+				margin-bottom: 10px;
+				margin-top: 10px;
+				 margin-left: 0px;
+    margin-right: -10px;
+			}
+			.hp1{
+				    font-size: 35px;
+				    font-weight: 200px;
+			}
+			.hp1a{
+				position: absolute;
+				margin-top: -23px;
+				margin-left: 38px;
+    left: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+			}
+			.hp2{
+				font-size: 35px;
+			}
+			.hp3{
+				margin-left: 0px;
+				margin-top: -3px;
+			}
+			.hp4{
+				font-size: 18px;
+				margin-left: 0px;
+				margin-top: -10px;
+			}
+			.hp5{
+				font-size: 18px;
+				margin-left: 0px;
+				margin-top: -15px;
+			}
+			.hp6{
+				font-size: 18px;
+			}
+			 .footer {
+      padding: 48px 10px;
+      background-color: #2e3550;
+      color: white;
+      text-align: center;
+      margin-top: 10px;
+    }
+		</style>
+	</head>
+	<body>
+		<div class="venky"><div class="ham"><i class="fa-solid fa-bars"></i></div><div class="st"> Screenstyles </div><div class='ven'>
+<i class="fa-solid fa-magnifying-glass"></i></div>
+<div class="share"><i class="fa-brands fa-facebook"></i></div></div>
+		<h1>BEST 10 MOVIES OF ALL TIME TO WATCH AND WHERE </h1>
+		<div class="des">The popcorn's been popped, the sweatpants are on, and the evening is your oyster. Your next challenge: Figuring out exactly which of the great movies available to you is the one you're going to commit to tonight.No matter what you're looking for—romance, drama, comedy, action—there are plenty of classics to watch in your spare time.<div class="mainimg"><center><img src="https://townsquare.media/site/442/files/2019/08/best-posters-of-the-decade.jpg?w=980&q=75"></center></div>  After all, if the past two years cooped up in our homes has taught us anything, it's that there's nothing better than a movie to take us to a place that's far, far away from our current one. These must-watch movies are modern classics, the best of the best, the essential films that millions of people are probably jealous that you're getting to see for the first time. There are a few that might be outside your comfort zone, and a couple that'll introduce you to cultures and environments you know nothing about. This list may be long, but FOMO is eternal.</div>
+		<div class="lo">
+		<div class="lo1">1<div class="lo1a">/10</div></div>
+		<div class="lo2">The Lord of the Ring(2003)</div>
+		<div class="lo3">Film series</div>
+			<div class='lo4'>
+				<p><b>IMDB:</b>8.9(Average)</p></div>
+				<p class="lo5"><b>Rotten Tomatoes:</b>95%</p>
+		<div>
+		<center><img src="https://qphs.fs.quoracdn.net/main-qimg-ff1336ff5cc8bcf5be1ce8c33ebd8188-lq"style="width:700px;height:400px;" ></center>
+	</div>
+	<div>
+		<div style="font-size: 20px;"><b>Storyline:</b></div>
+		<div class="lo6">The future of civilization rests in the fate of the One Ring, which has been lost for centuries. Powerful forces are unrelenting in their search for it. But fate has placed it in the hands of a young Hobbit named Frodo Baggins (Elijah Wood), who inherits the Ring and steps into legend. A daunting task lies ahead for Frodo when he becomes the Ringbearer - to destroy the One Ring in the fires of Mount Doom where it was forged.</div><b style="font-size: 18px";>Streaming platform:</b>
+		<a href="https://www.primevideo.com/region/eu/detail/0OSCHRCND6YJINE89MRQAUOYBO/ref_=dvm_pds_gen_in_as_s_gt_top1000dsad520?ref_=dvm_pds_gen_in_as_s_gt_dsadfeed_mkw_s-dc&mrntrk=pcrid_580559066056_slid__pgrid_77215369835_pgeo_9300909_x_79972496342_ptid_dsa-792269866749">Amazon prime</a>
+		<div><b style="font-size:18px";>Buy Membership at:</b>₹999 peryear</div>
+		<div class="da">
+		<div class="da1">2<div class="da1a">/10</div></div>
+		<div class="da2">The Dark Knight(2008)</div>
+			<div class='da4'>
+				<p><b>IMDB:</b>9.1</p></div>
+				<p class="da5"><b>Rotten Tomatoes:</b>94%</p>
+		<div>
+		<center><img src="https://static0.srcdn.com/wordpress/wp-content/uploads/2016/08/Joker-Behind-Bars.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5"style="width:700px;height:400px;" ></center>
+	</div>
+	<div>
+		<div style="font-size: 20px;"><b>Storyline:</b></div>
+		<div class="da6">The superhero genre might not get a lot of respect from most cinephiles, but Christopher Nolan's second Batman film proved they can deliver smart, epic, and thrilling movies.
+
+The Dark Knight details Batman's desperate attempt to stop Joker from destroying Gotham as he searches for someone to take up the role of the city's protector. The film feels like a crime epic, with some amazing set pieces and unpredictable twists. However, the film is most remembered for the late Heath Leger's mesmerizing performance as the anarchist Joker.</div><b style="font-size: 18px";>Streaming platform:</b>
+		<a href="https://www.primevideo.com/region/eu/detail/0QSTXR0EXWWYI4D3UGMLFM4A0Q/ref=atv_dp_amz_det_c_Iw3Dma_1_1">Amazon prime</a>
+		<div><b style="font-size:18px";>Buy Membership at:</b>₹999 peryear</div>
+		<div class="pi">
+		<div class="pi1">3<div class="pi1a">/10</div></div>
+		<div class="pi2">Pirates of the Caribbean(2003)</div>
+		<div class="pi3">Film series</div>
+			<div class='pi4'>
+				<p><b>IMDB:</b>8.1</p></div>
+				<p class="pi5"><b>Rotten Tomatoes:</b>94%</p>
+		<div>
+		<center><img src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/dc0c7e782e58f7229636010f472e605aa045d16208a9c1b66e9571e90a957656._UY500_UX667_RI_V_TTW_.jpg"style="width:700px;height:400px;" ></center>
+	</div>
+	<div>
+		<div style="font-size: 20px;"><b>Storyline:</b></div>
+		<div class="pi6">Pirates of the Caribbean is a sweeping action-adventure story set in an era when villainous pirates scavenged the Caribbean seas. This roller coaster tale teams a young man, Will Turner, with an unlikely ally in rogue pirate Jack Sparrow.
+		Pirates of the Caribbean proved to do the unexpected, with the first movie being so successful that two sequels were greenlit. Both went on to surpass $1 billion at the box office, as did the eventual fourth film. As is often the case though, the quality of these movies fluctuated, leading to mixed ratings on IMDb. All of these films can be streamed on Disney+.</div><b style="font-size: 18px";>Streaming platform:</b>
+		<a href="https://www.hotstar.com/in/movies/pirates-of-the-caribbean-the-curse-of-the-black-pearl/1660010115/watch?utm_source=gwa">Disney+ Hotstar</a>
+		<div><b style="font-size:18px";>Buy Membership at:</b>₹899 peryear</div>
+		<div class="sh">
+		<div class="sh1">4<div class="sh1a">/10</div></div>
+		<div class="sh2">The Shawshank Redemption (1994)</div>
+			<div class='sh4'>
+				<p><b>IMDB:</b>9.3</p></div>
+				<p class="sh5"><b>Rotten Tomatoes:</b>91%</p>
+		<div>
+		<center><img src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/aa17005fd6e7eb3e15e32b9f9252e0aea07b50c7bd0bfe686ac45498fc6f809b._RI_V_TTW_.jpg"style="width:700px;height:400px;" ></center>
+	</div>
+	<div>
+		<div style="font-size: 20px;"><b>Storyline:</b></div>
+		<div class="sh6">Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.
+
+Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found guilty of a crime he did not commit. The film portrays the man's unique way of dealing with his new, torturous life; along the way he befriends a number of fellow prisoners, most notably a wise long-term inmate named Red.</div><b style="font-size: 18px";>Streaming platform:</b>
+		<a href="https://www.primevideo.com/detail/The-Shawshank-Redemption/0GM9AF7U4GJ6SSO3BI02CNYDB4">Amazon Prime</a>
+		<div><b style="font-size:18px";>Buy Membership at:</b>₹999 peryear</div>
+	</div>
+	</div>
+	<div class="jo">
+		<div class="jo1">5<div class="jo1a">/10</div></div>
+		<div class="jo2">Joker(2019 film)</div>
+			<div class='jo4'>
+				<p><b>IMDB:</b>8.4</p></div>
+				<p class="jo5"><b>Rotten Tomatoes:</b>68%</p>
+		<div>
+		<center><img src="https://wallpaperaccess.com/full/1508269.jpg"style="width:700px;height:400px;" ></center>
+	</div>
+	<div>
+		<div style="font-size: 20px;"><b>Storyline:</b></div>
+		<div class="jo6">The film that follows Arthur Fleck, a failed clown and stand-up comedian whose descent into insanity and nihilism inspires a violent counter-cultural revolution against the wealthy in a decaying Gotham City.</div><b style="font-size: 18px";>Streaming platform:</b>
+		<a href="https://www.netflix.com/in/title/81092221?source=35">Netfilx</a>
+		<div><b style="font-size:18px";>Buy Membership at:</b>₹1499 peryear</div>
+		<div class="in">
+		<div class="in1">6<div class="in1a">/10</div></div>
+		<div class="in2">Inception(2010)</div>
+			<div class='in4'>
+				<p><b>IMDB:</b>8.8</p></div>
+				<p class="in5"><b>Rotten Tomatoes:</b>87%</p>
+		<div>
+		<center><img src="https://th.bing.com/th/id/R.b7943577d7dd857627dfc22b37258720?rik=HAvhLTK9EMjx9A&riu=http%3a%2f%2fimages2.fanpop.com%2fimage%2fphotos%2f12300000%2fInception-Wallpaper-inception-2010-12396931-1440-900.jpg&ehk=kGnhVejE1I3qWN7tfXRrJF05TnQmhfOmmZFPdIQ%2fmYU%3d&risl=&pid=ImgRaw&r=0"style="width:700px;height:400px;" ></center>
+	</div>
+	<div>
+		<div style="font-size: 20px;"><b>Storyline:</b></div>
+		<div class="in6">A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and lead his team to disaster.</div><b style="font-size: 18px";>Streaming platform:</b>
+		<a href="https://www.primevideo.com/detail/0JTBVK6L41AABWSV8DK605AI0U/?ref_=dvm_pds_gen_in_as_s_g_dsafeedn_mkw_s-dc&mrntrk=pcrid_580559066107_slid__pgrid_120279910526_pgeo_9301174_x_200352680703_ptid_dsa-1428618668055">Amazon Prime</a>
+		<div><b style="font-size:18px";>Buy Membership at:</b>₹999 peryear</div>
+		<div class="li">
+		<div class="li1">7<div class="li1a">/10</div></div>
+		<div class="li2">Life Of Pi(2012)</div>
+			<div class='li4'>
+				<p><b>IMDB:</b>7.9</p></div>
+				<p class="li5"><b>Rotten Tomatoes:</b>86%</p>
+		<div>
+		<center><img src="https://images.immediate.co.uk/remote/m.media-amazon.com/images/S/pv-target-images/37a1d10d4a4bb93f0c61fe2cc31cb334f40ccd60cf4fd30620a4ed3d93a218d2.jpg?quality=90&webp=true&resize=650,366"style="width:700px;height:400px;" ></center>
+	</div>
+	<div>
+		<div style="font-size: 20px;"><b>Storyline:</b></div>
+		<div class="li6">Pi Patel finds a way to survive in a lifeboat that is adrift in the middle of nowhere. His fight against the odds is heightened by the company of a hyena and a male Bengal tiger.</div><b style="font-size: 18px";>Streaming platform:</b>
+		<a href="https://www.hotstar.com/in/movies/life-of-pi/1770000706/watch?utm_source=gwa">Disney+ Hotstar</a>
+		<div><b style="font-size:18px";>Buy Membership at:</b>₹899 peryear</div>
+		<div class="ti">
+		<div class="ti1">8<div class="ti1a">/10</div></div>
+		<div class="ti2">Titanic(1997)</div>
+			<div class='ti4'>
+				<p><b>IMDB:</b>7.9</p></div>
+				<p class="ti5"><b>Rotten Tomatoes:</b>87%</p>
+		<div>
+		<center><img src="https://images.squarespace-cdn.com/content/v1/5c75dfa97d0c9166551f52b1/1571759141591-I1RAI5I59E74DIYCLY57/Large_3909.jpg?format=1500w"style="width:700px;height:400px;" ></center>
+	</div>
+	<div>
+		<div style="font-size: 20px;"><b>Storyline:</b></div>
+		<div class="ti6">A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic. This is based on the real-life disaster, though its main characters and story are entirely fictional.
+
+Originally pegged to be an unmitigated disaster due to its soaring production costs, Titanic went on to become one of the most successful films ever-made. It broke box office records, grossing $600.7 million in its original domestic run, and tied an Academy record by taking home 11 Oscars - including Best Picture and Best Director for James Cameron. It earned a total of 14 nominations, losing only Best Actress, Best Supporting Actress, and Best Makeup. Titanic catapulted its leads, Leonardo DiCaprio and Kate Winslet, to stardom, launching careers that are still going strong. The film also spawned the hit Celine Dion song, "My Heart Will Go On."
+</div><b style="font-size: 18px";>Streaming platform:</b>
+		<a href="https://www.hotstar.com/in/movies/titanic/1770001166/watch?utm_source=gwa">Disney+ Hotstar</a>
+		<div><b style="font-size:18px";>Buy Membership at:</b>₹899 peryear</div>
+		<div class="av">
+		<div class="av1">9<div class="av1a">/10</div></div>
+		<div class="av2">Avatar(2009)</div>
+			<div class='av4'>
+				<p><b>IMDB:</b>7.9</p></div>
+				<p class="av5"><b>Rotten Tomatoes:</b>82%</p>
+		<div>
+		<center><img src="http://images.fandango.com/images/spotlight/avatar-poster.jpg"style="width:700px;height:400px;" ></center>
+	</div>
+	<div>
+		<div style="font-size: 20px;"><b>Storyline:</b></div>
+		<div class="av6">A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.When his brother is killed in a robbery, paraplegic Marine Jake Sully decides to take his place in a mission on the distant world of Pandora. There he learns of greedy corporate figurehead Parker Selfridge's intentions of driving off the native humanoid "Na'vi" in order to mine for the precious material scattered throughout their rich woodland. In exchange for the spinal surgery that will fix his legs, Jake gathers knowledge, of the Indigenous Race and their Culture, for the cooperating military unit spearheaded by gung-ho Colonel Quaritch, while simultaneously attempting to infiltrate the Na'vi people with the use of an "avatar" identity. While Jake begins to bond with the native tribe and quickly falls in love with the beautiful alien Neytiri, the restless Colonel moves forward with his ruthless extermination tactics, forcing the soldier to take a stand - and fight back in an epic battle for the fate of Pandora.
+</div><b style="font-size: 18px";>Streaming platform:</b>
+		<a href="https://www.hotstar.com/in/movies/avatar/1770000948/watch?utm_source=gwa">Disney+ Hotstar</a>
+		<div><b style="font-size:18px";>Buy Membership at:</b>₹899 peryear</div>
+		<div class="hp">
+		<div class="hp1">10<div class="hp1a">/10</div></div>
+		<div class="hp2">Harry Potter(2001)</div>
+		<div class="hp3">Film series</div>
+			<div class='hp4'>
+				<p><b>IMDB:</b>7.4(average)</p></div>
+				<p class="hp5"><b>Rotten Tomatoes:</b>96%</p>
+		<div>
+		<center><img src="https://www.comingsoon.net/assets/uploads/2015/09/wizarding1.jpg"style="width:700px;height:400px;" ></center>
+	</div>
+	<div>
+		<div style="font-size: 20px;"><b>Storyline:</b></div>
+		<div class="hp6">Harry Potter is an orphaned boy brought up by his unkind Muggle (non-magical) aunt and uncle. At the age of eleven, half-giant Rubeus Hagrid informs him that he is actually a wizard and that his parents were murdered by an evil wizard named Lord Voldemort.
+		Harry taught us to never give up. He destroyed the horcrux within himself, and then came back from the dead to kill Voldemort. Harry endured so much in the series, and he persevered through all of it. He showed us that you can push through even the hardest times, bounce back and succeed.
+</div><b style="font-size: 18px";>Streaming platform:</b>
+		<a href="https://www.primevideo.com/detail/Harry-Potter-and-the-Sorcerers-Stone/0N8WYH0W6L7Q0ODHGQCHMMRH4R">Amazon Prime</a>
+		<div><b style="font-size:18px";>Buy Membership at:</b>₹999 peryear</div>
+		</div>
+		<footer class="footer">Contact details:venkyraavi45@gmail.com
+			<div>&copy; Copyright Venky</div></footer>
+	</body>
+	</html>
